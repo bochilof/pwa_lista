@@ -1,0 +1,16 @@
+{
+  "background_color": "#242424",
+  "description": "App de lista de compras",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Lista de compras",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "Lista de Compras",
+  "start_url": "/",
+  "theme_color": "#242424",
+  "categories": [],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": []
+}
