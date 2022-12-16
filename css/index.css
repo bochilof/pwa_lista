@@ -1,0 +1,71 @@
+.container-add-item{
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.box-input-item{
+    margin-bottom: 5px;
+}
+
+.input-item{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.container-select-btn{
+    display: flex;
+}
+
+.box-select{
+    width: 100%;
+    padding-right: 5px;
+}
+
+.box-select select{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.box-btn-limpar,
+.box-btn-remover{
+    padding-left: 5px;
+}
+
+.btn{
+    min-width: 35px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(#EEE, #AAA);
+}
+
+.container-lista{
+    padding-top: 85px;
+}
+
+.box-setor{
+    background-color: #444444;
+    margin: 5px 0px;
+}
+
+.item{
+    padding: 2px 5px;
+    text-transform: capitalize;
+    color: #CCC;
+}
+
+.item-ok{
+    text-decoration: line-through;
+    color: #999;
+    padding-left: 15px;
+}

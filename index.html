@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Lista</title>
+</head>
+<body>
+    <div class="container-add-item">
+        <div class="box-input-item">
+            <input type="text" id="input-item" class="input-item">
+        </div>
+        <div class="container-select-btn">
+            <div class="box-select">
+                <select name="select" id="select">
+                    <option value="outros">Outros</option>
+                    <option value="mercearia">Mercearia</option>
+                    <option value="padaria">Padaria</option>
+                    <option value="hortifruti">Hortifruti</option>
+                    <option value="bebidas">Bebidas</option>
+                    <option value="higiene">Higiene</option>
+                    <option value="bazar">Bazar</option>
+                </select>
+            </div>
+            <div class="box-btn-add">
+                <button type="button" id="btn-add" class="btn">+</button>
+            </div>
+            <div class="box-btn-remover">
+                <button type="button" id="btn-remover" class="btn">-</button>
+            </div>
+            <div class="box-btn-limpar">
+                <button type="button" id="btn-limpar" class="btn">Limpar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lista">
+        <div id="container-mercearia" class="setor container-mercearia box-setor"></div>
+        <div id="container-padaria" class="setor container-padaria box-setor"></div>
+        <div id="container-hortifruti" class="setor container-hortifruti box-setor"></div>
+        <div id="container-bebidas" class="setor container-bebidas box-setor"></div>
+        <div id="container-higiene" class="setor container-higiene box-setor"></div>
+        <div id="container-bazar" class="setor container-bazar box-setor"></div>
+        <div id="container-outros" class="setor container-outros box-setor"></div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

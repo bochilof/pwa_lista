@@ -1,0 +1,10 @@
+{
+    "name": "Lista de comprar",
+    "short_name": "Lista",
+    "theme_color": "#242424",
+    "background_color": "#242424",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+}
